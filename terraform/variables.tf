@@ -1,11 +1,11 @@
 variable "resource_group" {
   description = "The resource group"
-  default = "salagars2022_aztf"
+  default = "salagarsrg2"
 }
 
 variable "application_name" {
   description = "The Spring Boot application name"
-  default     = "salagars_springbootapp1"
+  default     = "salagarsapp1"
 }
 
 variable "location" {
