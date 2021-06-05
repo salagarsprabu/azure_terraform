@@ -1,6 +1,6 @@
 variable "resource_group" {
   description = "The resource group"
-  default = "salagarsrg2"
+  default = "salagarsrgtform"
 }
 
 variable "application_name" {
