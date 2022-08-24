@@ -45,7 +45,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure Web App Deploy'
             inputs:
-              azureSubscription: '90de0c98-2d25-4094-a834-32b29fdf8003'
+              azureSubscription: $(serviceconnection)
               appType: webAppLinux
               appName: '$(webAppName)'
               package: '$(Pipeline.Workspace)/drop/**/target/*.?(war|jar)'
